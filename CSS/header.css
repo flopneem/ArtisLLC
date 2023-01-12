@@ -1,5 +1,5 @@
-@import url('https://css.gg/user.css');
 
+@import url('https://css.gg/user.css');
 
 /**/
 * {
@@ -12,12 +12,83 @@ html, body {
     width: 100%;
 }
 
-.div-header {
+.main-header-div {
     margin-left: 10px;
     margin-right: 10px;
     height: 85px;
-    background-color: blue;
+    border: solid red 3px;
+    position: relative;
+    /* overflow: hidden; */
+    display: flex ;
+    align-items: center;
+    justify-content: flex-end;
 }
 
+.dropdown-menu {
+    position: relative;
+    height: 50px;
+    width: 90px;
+    /* border: solid blue 1px; */
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.account-icon {
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/account-avatar-head-svgrepo-com.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    cursor: pointer;
+}
 
+.dropdown-bars {
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/bars-svgrepo-com.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .8 ;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 50px;
+    left: 5;
+    width: 150px;
+    background-color: rgb(180, 180, 180);
+    display: none;
+}
+
+.dropdown-content a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #a7a2a2;
+}
+
+.dropdown-menu:hover .dropdown-content {
+    display: block;
+   
+}
+
+.dropdown-menu:hover .dropdown-bars {
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/x-svgrepo-com.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .8 ;
+    margin-top: 5px;
+    cursor: pointer;
+}
