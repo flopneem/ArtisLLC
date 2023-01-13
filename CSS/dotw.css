@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+main {
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 450px;
+    border: solid blue 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .dotw-title {
+    width: 100%;
+    height: 25%;
+    background-image: url(/images/Deals-of-the-week.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.dotw-title {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter {
+    display: inline-block;
+    width: 35px;
+    font-family: 'Rubik Vinyl', cursive;
+    color: black;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+.letter:hover {
+    color: red;
+
+}
+ 
+ 
+
+.dashes {
+    display: inline-block;
+    width: 35px;
+    font-family: 'Rubik Vinyl', cursive;
+    color: black;
+    font-weight: 100;
+    opacity: .5;
+    font-size: 30px;
+}
+
+.dotw-main {
+    width: 100%;
+    height: 75%;
+    border: solid red 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dotw-top-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid rgb(168, 2, 168) 1px;
+}
+
+.dotw-bottom-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid black 1px;
+}
+
+.dotw {
+    border: solid red 1px;
+    height: 100%;
+    width: 50%;
+
+}

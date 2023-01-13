@@ -12,13 +12,25 @@ html, body {
     width: 100%;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-section {
+    position: fixed;
+    width: 95%;
+    top: 0;
+    z-index: 1;
+}
+
 .main-header-div {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 5%;
     height: 85px;
     border: solid red 3px;
     position: relative;
-    /* overflow: hidden; */
     display: flex ;
     align-items: center;
     justify-content: flex-end;
@@ -78,8 +90,8 @@ html, body {
 }
 
 .dropdown-menu:hover .dropdown-content {
+    transition: 1s;
     display: block;
-   
 }
 
 .dropdown-menu:hover .dropdown-bars {
@@ -91,4 +103,11 @@ html, body {
     opacity: .8 ;
     margin-top: 5px;
     cursor: pointer;
+    transition: 0s;
+    -webkit-filter: invert(50%); 
 }
+
+.dropdown-menu:hover .account-icon {
+    -webkit-filter: invert(50%); 
+}
+
