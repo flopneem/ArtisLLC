@@ -1,0 +1,25 @@
+<head>
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0"
+                  <title>Artis Technologies - Tech Solutions</title>
+                  <link rel="stylesheet" href="style.css">
+                </head>
+                <body>
+                  <div class="footer">
+                  <div class="col-1">
+                    <h3>USEFUL LINKS</h3>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Blog</a>
+                  </div>
+                  </div>
+                  <div class="col-2"></div>
+                      <h3>NEWSLETTER</h3>
+                      <form>
+                        <input type="text" placeholder="Your Email Address">
+                        <button type="submit">SUBSCRIBE NOW</button>
+                      </form>
+                  <div class="col-3"></div>
+                      <h3>CONTACT</h3>
+                      <p>123, XYZ ROAD, BSK 3<br>SEATTLE, WASHINGTON, 98122</p>
