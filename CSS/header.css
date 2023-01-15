@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: block;
     
 }
 
@@ -24,6 +25,10 @@ body {
     width: 95%;
     top: 0;
     z-index: 1;
+}
+
+main {
+    display: inline-block;
 }
 
 .main-header-div {
